@@ -1,7 +1,7 @@
-function stars(numberOfStars = 10, text = "hi"){
+export default function stars(numberOfStars = 10, text = "hi"){
     console.log(
-    `${'*'.repeat(numberOfStars)}${testStr}${'*'.repeat(numberOfStars)}`
-    );
+`${'*'.repeat(numberOfStars)}
+${text}
+${'*'.repeat(numberOfStars)}`
+);
 }
-
-module.exports = stars;
